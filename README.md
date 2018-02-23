@@ -1,3 +1,5 @@
+[![](https://img.shields.io/docker/build/fastgenomics/pandas.svg)](https://hub.docker.com/r/fastgenomics/pandas/)
+
 # Docker base images with python pandas
 
  - alpine 3.7
