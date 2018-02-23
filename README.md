@@ -7,4 +7,7 @@
  - pandas 0.22
  - statsmodels 0.8
 
+## Tags:
+tag-schema: {pandas version}-{python-version}-{image version}  
+example:    0.22-p36-v1
 
