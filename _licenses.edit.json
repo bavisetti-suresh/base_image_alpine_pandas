@@ -1,0 +1,62 @@
+{
+    "metadata": {},
+    "licenses": {
+        "dockerfile:alpine": {
+            "version": "3.7-alpine",
+            "component_link": "https://github.com/docker-library/python",
+            "license_link": "https://github.com/gliderlabs/docker-alpine/blob/master/LICENSE",
+            "author": "DOCKER",
+            "license_type": "BSD 2-Clause \"Simplified\" License",
+            "comment": ""
+        },
+        "python": {
+            "version": "3.6",
+            "component_link": "https://www.python.org/",
+            "license_link": "https://github.com/python/cpython/blob/master/LICENSE",
+            "author": "Guido van Rossum, …",
+            "license_type": "PSF"
+        },
+        "python-package:pytest": {
+            "version": "3.1",
+            "component_link": "https://pytest.org/",
+            "license_link": "https://github.com/pytest-dev/pytest/blob/master/LICENSE",
+            "author": "Holger Krekel and others",
+            "license_type": "MIT"
+        },
+        "python-package:Jinja2": {
+            "version": "2.10",
+            "component_link": "http://jinja.pocoo.org/",
+            "license_link": "https://github.com/pallets/jinja/blob/master/LICENSE",
+            "author": "Armin Ronacher et. al. (see Armin Ronacher https://github.com/pallets/jinja/blob/master/AUTHORS)",
+            "license_type": "BSD 3-clause"
+        },
+        "python-package:numpy": {
+            "version": "1.14",
+            "component_link": "http://www.numpy.org/",
+            "license_link": "https://github.com/numpy/numpy/blob/master/LICENSE.txt",
+            "author": "NumPy Developers",
+            "license_type": "BSD 3-clause"
+        },
+        "python-package:pandas": {
+            "version": "0.22",
+            "component_link": "https://pandas.pydata.org/",
+            "license_link": "https://github.com/pandas-dev/pandas/blob/master/LICENSE",
+            "author": "see https://github.com/pandas-dev/pandas/blob/master/AUTHORS.md",
+            "license_type": "BSD 3-clause"
+        },
+        "python-package:statsmodels": {
+            "version": "0.8.0",
+            "component_link": "https://www.statsmodels.org/",
+            "license_link": "https://github.com/statsmodels/statsmodels/blob/master/LICENSE.txt",
+            "author": "Statsmodels Developers",
+            "license_type": "BSD 3-clause"
+        },
+        "python-package:scipy": {
+            "version": "1.0",
+            "component_link": "https://www.scipy.org/",
+            "license_link": "https://github.com/scipy/scipy/blob/master/LICENSE.txt",
+            "author": "SciPy Developers",
+            "license_type": "BSD 3-clause"
+        }
+    }
+}
