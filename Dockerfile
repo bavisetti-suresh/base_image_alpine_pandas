@@ -1,8 +1,8 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 # add additional mirror
-RUN echo http://mirror1.hs-esslingen.de/pub/Mirrors/alpine/v3.7/main >> /etc/apk/repositories; \
-    echo http://mirror1.hs-esslingen.de/pub/Mirrors/alpine/v3.7/community >> /etc/apk/repositories
+RUN echo http://mirror1.hs-esslingen.de/pub/Mirrors/alpine/v3.8/main >> /etc/apk/repositories; \
+    echo http://mirror1.hs-esslingen.de/pub/Mirrors/alpine/v3.8/community >> /etc/apk/repositories
 
 # create virtual package for scipy-runtime, install build-dependencics and remove after compilation.
 # for matplotlib add: freetype-dev libpng-dev tcl tk
