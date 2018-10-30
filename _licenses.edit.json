@@ -4,7 +4,7 @@
         "dockerfile:alpine": {
             "version": "3.8-alpine",
             "component_link": "https://github.com/docker-library/python",
-            "license_link": "https://github.com/gliderlabs/docker-alpine/blob/master/LICENSE",
+            "license_link": " https://github.com/gliderlabs/docker-alpine/blob/rootfs/gliderlabs-3.8/LICENSE",
             "author": "DOCKER",
             "license_type": "BSD 2-Clause \"Simplified\" License",
             "comment": ""
