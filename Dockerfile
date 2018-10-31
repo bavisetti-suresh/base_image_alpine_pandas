@@ -9,7 +9,7 @@ RUN echo http://mirror1.hs-esslingen.de/pub/Mirrors/alpine/v3.8/main >> /etc/apk
 COPY ./requirements.txt /requirements/
 RUN apk add --no-cache --virtual .build-deps build-base wget git python3-dev freetype-dev libpng-dev openblas-dev && \
     ln -s /usr/include/locale.h /usr/include/xlocale.h && \
-    pip3 install --no-cache-dir numpy==1.14 && \
+    pip3 install --no-cache-dir numpy==1.15.3 && \
     pip3 install --no-cache-dir -r /requirements/requirements.txt && \
     apk del .build-deps && \
     apk add --no-cache python3 git bash && \

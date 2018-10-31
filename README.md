@@ -2,14 +2,13 @@
 
 # Docker base images with python pandas
 
- - alpine 3.7
+ - alpine 3.8
  - python 3.6
- - numpy 1.14
+ - numpy 1.15.3
  - scipy 1.0
- - pandas 0.22
- - statsmodels 0.8
+ - pandas 0.23.4
+ - statsmodels 0.9
 
 ## Tags:
 tag-schema: {pandas version}-{python-version}-{image version}  
-example:    0.22-p36-v1
-
+example:    0.23.4-p36-v1
