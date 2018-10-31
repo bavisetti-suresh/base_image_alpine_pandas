@@ -4,7 +4,7 @@
         "dockerfile:alpine": {
             "version": "3.8-alpine",
             "component_link": "https://github.com/docker-library/python",
-            "license_link": " https://github.com/gliderlabs/docker-alpine/blob/rootfs/gliderlabs-3.8/LICENSE",
+            "license_link": "https://github.com/gliderlabs/docker-alpine/blob/rootfs/gliderlabs-3.8/LICENSE",
             "author": "DOCKER",
             "license_type": "BSD 2-Clause \"Simplified\" License",
             "comment": ""
@@ -38,10 +38,10 @@
             "license_type": "BSD 3-clause"
         },
         "python-package:pandas": {
-            "version": "0.22",
+            "version": "0.23.4",
             "component_link": "https://pandas.pydata.org/",
-            "license_link": "https://github.com/pandas-dev/pandas/blob/v0.22.0/LICENSE",
-            "author": "see https://github.com/pandas-dev/pandas/blob/v0.22.0/AUTHORS.md",
+            "license_link": "https://github.com/pandas-dev/pandas/blob/v0.23.4/LICENSE",
+            "author": "see https://github.com/pandas-dev/pandas/blob/v0.23.4/AUTHORS.md",
             "license_type": "BSD 3-clause"
         },
         "python-package:statsmodels": {
